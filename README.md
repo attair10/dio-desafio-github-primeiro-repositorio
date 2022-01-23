@@ -3,5 +3,5 @@ Respositorio do Desafio de Projetos
 
 ## Links Úteis
 
-[Sintaxe Markdow]{https://www.markdownguide.org/basic-syntax/}
+[Sintaxe Markdow](https://www.markdownguide.org/basic-syntax/)
 
