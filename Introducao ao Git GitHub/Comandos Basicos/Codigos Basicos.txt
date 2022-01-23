@@ -1,0 +1,35 @@
+
+Comandos para configurar o Autor
+
+$ git config --global user.email "email@email.com"
+Este comando seta o email do autor
+
+$ git config --global user.name Attair
+Este comando seta um nome de usuario
+
+É importante configurar o autor para que o commit seja identificado
+
+$ git config --list
+Este comando lista as configurações
+
+$ git config --global --unset user.name
+Este comando remove uma configuracao, o --unset esta removendo o nome
+Voce pode remover um nome e configurar outro, isso não causara um problema em seu commits
+anteriores, porem os commits aparecerem com autores diferentes no GitHub.
+
+$ git status
+Verifica o status do arquivos, arquivos modificados para o stage
+
+$ git add *
+Adiciona todos, colocando um nome, adiciona especifico
+
+$ git commit -m "commit inicial"
+Commita
+
+$ git remote add origin https://github.com/attair10/dio-desafio-github-primeiro-repositorio.git
+$ git push origin master
+Empurra para o GitHub
+
+
+
+
